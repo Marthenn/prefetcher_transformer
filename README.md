@@ -2,9 +2,10 @@
 > 13521144 | Bintang Dwi Marthen | Sequence Modeling for Cache Prefetching
 
 # Dataset
-1. The dataset is `metaCDN Workload Traces`, it is accesible through https://ftp.pdl.cmu.edu/pub/datasets/twemcacheWorkload/cacheDatasets/metaCDN
-2. The dataset has been processed into a csv file, it is stored in this repository using git lfs
-3. The dataset statistics detail can be viewed in [traceStat](https://github.com/Marthenn/prefetcher_transformer/blob/main/traceStat) with a quick glimpse of the details below in `dataset summary` section
+1. The dataset is `metaCDN Workload Traces`, specifically the `meta_reag.oracleGeneral.zst`
+2. It is accesible through https://ftp.pdl.cmu.edu/pub/datasets/twemcacheWorkload/cacheDatasets/metaCDN
+3. The dataset has been processed into a csv file, it is stored in this repository using git lfs
+4. The dataset statistics detail can be viewed in [traceStat](https://github.com/Marthenn/prefetcher_transformer/blob/main/traceStat) with a quick glimpse of the details below in `dataset summary` section
 
 ## Dataset Summary
 1. This dataset is traces of I/O in metaCDN environments
