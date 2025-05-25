@@ -1,1 +1,22 @@
 # prefetcher_transformer
+> 13521144 | Bintang Dwi Marthen | Sequence Modeling for Cache Prefetching
+
+# Dataset
+1. The dataset is `metaCDN Workload Traces`, it is accesible through https://ftp.pdl.cmu.edu/pub/datasets/twemcacheWorkload/cacheDatasets/metaCDN
+2. The dataset has been processed into a csv file, it is stored in this repository using git lfs
+3. The dataset statistics detail can be viewed in [traceStat](https://github.com/Marthenn/prefetcher_transformer/blob/main/traceStat) with a quick glimpse of the details below in `dataset summary` section
+
+## Dataset Summary
+1. This dataset is traces of I/O in metaCDN environments
+2. The dataset consists of `timestamp`, `obj_id`, `obj_size`, and `next_access_vtime`
+3. In this task, we only use `timestamp` and `obj_id` since we are ignoring size for the transformer prefetching (it is deemed as unimportant for the task)
+
+## Dataset Example
+> This is taken using the head function from pandas
+| timestamp | obj_id |
+|-----------|------------------|
+| 0         | 9923303287488963378 |
+| 1         | 9939978422402668152 |
+| 2         | 4704144935105825719 |
+| 3         | 4526530743497726240 |
+| 5         | 1196122231523595215 |
