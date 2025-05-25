@@ -13,7 +13,8 @@
 3. In this task, we only use `timestamp` and `obj_id` since we are ignoring size for the transformer prefetching (it is deemed as unimportant for the task)
 
 ## Dataset Example
-> This is taken using the head function from pandas
+> Sample was taken using the head function from pandas
+
 | timestamp | obj_id |
 |-----------|------------------|
 | 0         | 9923303287488963378 |
